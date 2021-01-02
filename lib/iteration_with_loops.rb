@@ -1,6 +1,7 @@
 def join_nested_strings(src)
   
 words = []
+
 src.each do |items|
   items.each do |item|
     if item.is_a?(String)
@@ -8,6 +9,7 @@ src.each do |items|
     end
   end
 end
+
 words.join(" ")
 
 end 
